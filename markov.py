@@ -51,7 +51,7 @@ def make_text(chains):
             #print "what the next tuple will look like =", next_tuple
             break
 
-    while len(markov_output_string) <= 135:
+    while len(markov_output_string) <= 125:
         next_value = random.choice(chains[next_tuple])
         markov_output_string += next_value + " "
         # print markov_out put_string
